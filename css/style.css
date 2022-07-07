@@ -664,13 +664,6 @@ ul.btn li:last-child {
      color: #fff;
 }
 
-
-/** footer **/
-
-
-
-/** end footer **/
-
 /** services **/
 .services {
      width: 100%;
@@ -818,3 +811,29 @@ ul.btn li:last-child {
           flex-wrap: wrap;
      }
 }
+
+/** footer **/
+
+footer {
+     width: 100%;
+     height: auto;
+     padding: 50px 0px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     background: linear-gradient(#00724cd0, #00b97c7a), url(../images/why.jpg);
+     background-attachment: fixed;
+     background-size: cover;
+     color: #f9f9f9;
+}
+
+footer a {
+     color: #01ffb3;
+     transition: color 0.3s;
+}
+ footer a:hover {
+     color: #00724c;
+ }
+
+/** end footer **/
