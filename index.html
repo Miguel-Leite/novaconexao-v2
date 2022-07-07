@@ -24,6 +24,8 @@
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- Aos -->
+      <link rel="stylesheet" href="css/aos.css">
    </head>
    <!-- body -->
    <body class="main-layout">
@@ -139,14 +141,18 @@
             <div class="container-fluid">
                <div class="row d_flex">
                   <div class="col-md-5">
-                     <div class="about_img">
+                     <div class="about_img" data-aos="fade-right">
                         <figure><img src="images/about_img.jpg" alt="#"/></figure>
                      </div>
                   </div>
                   <div class="col-md-7">
                      <div class="titlepage">
-                        <h2>Sobre a <span class="blu">Nova Conexão</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit </p>
+                        <h2 data-aos="fade-up">Sobre a <span class="blu">Nova Conexão</span></h2>
+                        <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                           nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                           reprehenderit in voluptate velit </p>
                      </div>
                   </div>
                </div>
@@ -157,24 +163,24 @@
          <div id="services">
             <div class="container my-5">
                <div class="titlepage">
-                  <h2>Nossos <span class="blu">Serviços</span></h2>
+                  <h2 data-aos="fade-up">Nossos <span class="blu">Serviços</span></h2>
                </div>
                <div class="services">
-                  <div class="service-item">
+                  <div class="service-item" data-aos="fade-left">
                      <div class="service-icon">
                         <i class="fa fa-phone-square" aria-hidden="true"></i>
                      </div>
                      <h3>Atendimento ao cliente</h3>
                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, facilis!
                   </div>
-                  <div class="service-item">
+                  <div class="service-item" data-aos="fade-up">
                      <div class="service-icon">
                         <i class="fa fa-info" aria-hidden="true"></i>
                      </div>
                      <h3>Consultória & Formação</h3>
                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, facilis!
                   </div>
-                  <div class="service-item">
+                  <div class="service-item" data-aos="fade-right">
                      <div class="service-icon">
                         <i class="fa fa-desktop" aria-hidden="true"></i>
                      </div>
@@ -192,10 +198,10 @@
                <div class="row justify-content-center">
                   <div class="col-8">
                      <div class="title">
-                        <h1>Consultoria</h1>
-                        <div class="divisor"></div>
+                        <h1 data-aos="fade-up">Consultoria</h1>
+                        <div class="divisor" data-aos="fade-right"></div>
                      </div>
-                     <p>
+                     <p data-aos="fade-in">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, 
                         sint omnis libero itaque voluptates, dignissimos accusamus 
                         neque laudantium aut cum obcaecati aspernatur ad eligendi illum laborum 
@@ -213,22 +219,22 @@
          <div id="contacts">
             <div class="container my-5">
                <div class="titlepage">
-                  <h2>Fale <span class="blu">Conosco</span></h2>
+                  <h2 data-aos="fade-up">Fale <span class="blu">Conosco</span></h2>
                </div>
                <div class="contacts">
-                  <div class="contact-item">
+                  <div class="contact-item" data-aos="fade-left">
                      <div class="contact-icon">
                         <i class="fa fa-address-card-o" aria-hidden="true"></i>
                      </div>
                   <p><b>TEL: </b> +244 944 604 388 / comercial@novaconexao.co.ao</p>
                   </div>
-                  <div class="contact-item">
+                  <div class="contact-item" data-aos="fade-up">
                      <div class="contact-icon">
                         <i class="fa fa-home" aria-hidden="true"></i>
                      </div>
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, facilis!</p>
                   </div>
-                  <div class="contact-item">
+                  <div class="contact-item" data-aos="fade-right">
                      <div class="social">
                         <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
                         <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
@@ -241,9 +247,9 @@
          <!-- end contacts -->
 
          <!--  footer -->
-         <footer>
+         <footer data-aos="fade-in">
             <div class="container text-center">
-               <p>Copyright &copy; Todos directos reservados - desenvolvido por: 
+               <p >Copyright &copy; Todos directos reservados - desenvolvido por: 
                <a href="https://nextlevel.ao/desenvolvimento-web/">Next-Level Empresa de Tecnologias</a> </p>
             </div>
          </footer>
@@ -255,10 +261,12 @@
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/aos.js"></script>
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
       <script type="text/javascript">
+         AOS.init({ duration: 2000 });
          $(document).ready(function() {
              $("#sidebar").mCustomScrollbar({
                  theme: "minimal"
