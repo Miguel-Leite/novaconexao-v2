@@ -135,7 +135,6 @@ p {
      margin: 0px;
      font-weight: 500;
      font-size: 15px;
-     line-height: 24px;
 }
 
 a {
@@ -225,7 +224,7 @@ button {
 }
 
 .theme_bg {
-     background: #38c8a8;
+     background: #38c8a4;
 }
 
 .margin_top_30 {
@@ -342,7 +341,7 @@ button {
 
 #sidebar .sidebar-header {
      padding: 20px;
-     background: #0808ff;
+     background: #08ffb5;
 }
 
 #sidebar ul.components {
@@ -369,7 +368,7 @@ button {
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
      color: #fff;
-     background: #35bff8;
+     background: #35f8c7;
 }
 
 a[data-toggle="collapse"] {
@@ -387,7 +386,7 @@ a[data-toggle="collapse"] {
 ul ul a {
      font-size: 0.9em !important;
      padding-left: 30px !important;
-     background: #6d7fcc;
+     background: #6dccbf;
 }
 
 ul.CTAs {
@@ -474,7 +473,7 @@ ul.btn li:last-child {
 
 .header {
      width: 100%;
-     background: #11aeef;
+     background: #11efac;
      padding: 35px 30px;
      position: relative;
      z-index: 960;
@@ -492,7 +491,7 @@ ul.btn li:last-child {
 /** banner section **/
 
 .banner_main {
-     background: #11aeef;
+     background: linear-gradient(#11efac,#05a071);
      padding: 75px 0 90px 0;
 }
 
@@ -579,30 +578,8 @@ ul.btn li:last-child {
 }
 
 .blu {
-     color: #0eadef;
+     color: #00b881;
 }
-
-.read_more {
-     font-size: 17px;
-     background-color: transparent;
-     border: #00aeef solid 5px;
-     color: #010a05 !important;
-     padding: 13px 0px;
-     width: 100%;
-     max-width: 210px;
-     text-align: center;
-     display: inline-block;
-     transition: ease-in all 0.5s;
-     border-radius: 40px;
-     font-weight: 500;
-}
-
-.read_more:hover {
-     background: #00aeef;
-     color: #fff !important;
-     transition: ease-in all 0.5s;
-}
-
 
 /** about section **/
 
@@ -624,7 +601,7 @@ ul.btn li:last-child {
 }
 
 .about .titlepage p {
-     color: #010a05;
+     color: #858585;
      font-size: 17px;
      line-height: 35px;
      font-weight: 400;
@@ -647,201 +624,9 @@ ul.btn li:last-child {
 /** end about section **/
 
 
-/** choose  section **/
-
-.blu2 {
-     color: #3a3aff;
-     font-weight: bold;
-}
-
-.choose_bg {
-     background: url(../images/why.jpg);
-     padding: 120px 0;
-}
-
-.choose .choose_box {
-     background: #fff;
-     padding: 35px 35px;
-     text-align: center;
-}
-
-.choose .choose_box span {
-     color: #141629;
-     display: block;
-     font-size: 70px;
-     font-weight: bold;
-     text-align: center;
-}
-
-.choose .choose_box h3 {
-     color: #00aeef;
-     font-size: 25px;
-     line-height: 28px;
-     font-weight: 500;
-     padding-bottom: 10px;
-     padding-top: 15px;
-}
-
-.choose .choose_box p {
-     color: #010a05;
-     font-size: 17px;
-     line-height: 30px;
-     font-weight: 500;
-}
-
-.padding_right0 {
-     padding-right: 0;
-}
-
-.padding_left0 {
-     padding-left: 0;
-}
-
-ul.easy li a {
-     font-size: 27px;
-     padding: 18px 21px;
-     width: 100%;
-     line-height: 36px;
-     margin-bottom: 35px;
-     display: block;
-}
-
-ul.easy li:last-child a {
-     margin-bottom: 0;
-}
-
-ul.easy li.active a {
-     background: #060505;
-     color: #fff;
-}
-
-ul.easy li a:hover {
-     background: #060505;
-     color: #fff;
-}
-
-
-/** end choose  section **/
-
-
-/** work section **/
-
-.work {
-     background: #ffffff;
-     padding: 90px 0;
-}
-
-.work .titlepage {
-     text-align: left;
-     padding: 0;
-     max-width: 648px;
-     width: 100%;
-     float: right;
-}
-
-.work .titlepage h2 {
-     margin-bottom: 40px;
-}
-
-.work .titlepage p {
-     color: #010a05;
-     font-size: 17px;
-     line-height: 35px;
-     font-weight: 400;
-     padding-bottom: 50px;
-}
-
-.work_img {
-     padding-right: 30px;
-}
-
-.work_img figure {
-     margin: 0;
-}
-
-.work_img figure img {
-     width: 100%;
-}
-
-
-/** end work section **/
-
-
-/** request section **/
-
-.request {
-     background: #0192c8;
-     padding: 90px 0px;
-}
-
-.request .titlepage {
-     text-align: left;
-}
-
 .white {
      color: #fff;
 }
-
-.main_form .contactus {
-     border-radius: 35px;
-     padding: 0px 30px;
-     margin-bottom: 30px;
-     width: 100%;
-     height: 60px;
-     background: #fff;
-     color: #777977;
-     font-size: 18px;
-     font-weight: normal;
-     border: inherit;
-}
-
-.main_form .textarea {
-     padding: 8px 30px;
-     padding-top: 63px;
-     margin-bottom: 30px;
-     width: 100%;
-     background: #fff;
-     color: #777977;
-     font-size: 18px;
-     font-weight: normal;
-     border: inherit;
-     border-radius: 20px;
-}
-
-.main_form .send_btn {
-     font-size: 17px;
-     transition: ease-in all 0.5s;
-     background-color: #fff;
-     color: #000;
-     padding: 13px 0px;
-     max-width: 200px;
-     width: 100%;
-     display: block;
-     border-radius: 30px;
-     margin: 0 auto;
-}
-
-.main_form .send_btn:hover {
-     background-color: #191e20;
-     transition: ease-in all 0.5s;
-     color: #fff;
-}
-
-#request *::placeholder {
-     color: #777977;
-     opacity: 1;
-}
-
-#map {
-     height: 425px;
-     overflow: hidden;
-     padding-bottom: 22.25%;
-     padding-top: 30px;
-     position: relative;
-}
-
-
-/** end request section **/
 
 
 /** footer **/
@@ -1003,3 +788,48 @@ ul.social_icon li a i:hover {
 
 /** end footer **/
 
+/** services **/
+.services {
+     width: 100%;
+     height: auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 25px;
+     margin-bottom: 100px;
+}
+
+.services .service-item {
+     padding: 10px 20px;
+     border-radius: 6px;
+     box-shadow: 0px 0px 25px rgba(204, 204, 204, 0.486);
+     text-align: center;
+     transition: box-shadow .3s ease-in-out;
+}
+
+.services .service-item:hover {
+     box-shadow: none;
+}
+
+.services .service-item h3 {
+     text-transform: uppercase;
+     font-weight: 700;
+     color: #006144;
+     margin-top: 20px;
+     font-size: 16px;
+}
+
+.services .service-item .service-icon {
+     margin: 10px auto;
+     width: 46px;
+     height: 46px;
+     background-color: #00c489;
+     color: white;
+     border-radius: 500%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 22px;
+     font-weight: 700;
+}
+/** end services **/
