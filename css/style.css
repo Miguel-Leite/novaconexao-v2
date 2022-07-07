@@ -47,6 +47,9 @@ body {
      font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
+     background: linear-gradient(#ffffffda, rgba(255, 255, 255, 0.267)), url(../images/bg.jpg);
+     background-attachment: fixed;
+     background-size: cover;
 }
 
 a {
@@ -152,6 +155,39 @@ a,
      -ms-transition: all .3s ease-in-out;
      -o-transition: all .3s ease-in-out;
      transition: all .3s ease-in-out;
+}
+
+
+.title .divisor {
+     position: relative;
+     width: 100px;
+     height: 3px;
+     margin: 5px auto;
+     background-color: #00724c;
+}
+
+.title .divisor::before,
+.title .divisor::after {
+     content: "";
+     position: absolute;
+     top: 0;
+     height: 100%;
+     width: 30px;
+     background-color: #82ffd9;
+}
+
+.title .divisor::before{
+     left: 0;
+}
+
+.title .divisor::after{
+     right: 0;
+}
+
+.title h1{
+     font-size: 28px;
+     font-weight: 700;
+     text-transform: uppercase;
 }
 
 img {
@@ -796,11 +832,11 @@ ul.social_icon li a i:hover {
      align-items: center;
      justify-content: center;
      gap: 25px;
-     margin-bottom: 100px;
+     margin-bottom: 200px;
 }
 
 .services .service-item {
-     padding: 10px 20px;
+     padding: 30px 20px;
      border-radius: 6px;
      box-shadow: 0px 0px 25px rgba(204, 204, 204, 0.486);
      text-align: center;
@@ -833,3 +869,27 @@ ul.social_icon li a i:hover {
      font-weight: 700;
 }
 /** end services **/
+
+/** consultancy **/
+.consultancy {
+     width: 100%;
+     height: 60vh;
+     padding: 20px 0px;
+     background: linear-gradient(#00724cd0, #00b97c7a), url(../images/why.jpg);
+     background-attachment: fixed;
+     background-size: cover;
+     /* margin-top: 100px; */
+     margin-bottom: 100px;
+     text-align: center;
+     color: #f9f9f9;
+}
+.consultancy .title{
+     margin-top: 20px;
+}
+.consultancy .title h1 {
+     color: #f9f9f9;
+}
+.consultancy p {
+     margin-top: 50px;
+}
+/** end consultancy **/
