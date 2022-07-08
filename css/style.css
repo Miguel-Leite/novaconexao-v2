@@ -819,6 +819,9 @@ ul.btn li:last-child {
      .services .service-item h3 {
           font-size: 14px;
      }
+     .consultancy {
+          height: 75vh;
+     }
 }
 
 /** footer **/
